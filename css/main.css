@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body  {
+
+
+ /*los dos puntos son por que realiza la busqueda y lo reconoce*/
+ background-repeat: no-repeat;
+ background-position: 10% 10%;
+ /* para ajustar imagen*/
+ background-size: cover;
+}
+
+
+@media (min-width:1024px) {
+    body{
+      font-size: 100%;
+      background-image: url("../img/Landscape.jpg");
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    body {
+      font-size: 75%;
+      background-image: url("../img/maxresdefault.jpg");
+   }
+}
+
+@media (min-width:480px) and (max-width:767px) {
+    body {
+        font-size: 50%;
+        background-image: url("../img/dawn.png");
+    }
+}
+@media (min-width:320px) and (max-width:479px) {
+    body {
+        font-size: 50%;
+        background-image: url("../img/midnight-conversation_861064.jpg");
+    }
+}
